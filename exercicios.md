@@ -19,10 +19,11 @@ utilizando if-else.
 formam realmente um triângulo. Caso forme, deve ser indicado o tipo de triângulo:
 Isósceles, escaleno ou eqüilátero.
 
-Para verificar se os lados fornecidos formam triângulo: A < B + C e B < A + C e C < A + B
-Triângulo isósceles: possui dois lados iguais (A=B ou A=C ou B = C)
-Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
-Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
+- Para verificar se os lados fornecidos formam triângulo: A < B + C e B < A + C e C < A + B
+    Triângulo isósceles: possui dois lados iguais (A=B ou A=C ou B = C)
+    Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
+    riângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
+
 7. As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se
 forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
 compradas, calcule e escreva o valor total da compra.
