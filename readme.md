@@ -1,43 +1,41 @@
-## 1° Lista de Exercícios | +PraTi & Codifica
+# 1° Lista de Exercícios | +PraTi & Codifica
 
-# Requisitos
-- Node.js
-- prompt-sync
+## Requisitos
+- **Node.js**
+- **prompt-sync**
 
-### Instalação:
+OBS: Caso ja tenha o Node.js instalado, pule para a [instalação do prompt-sync](#prompt-sync) no projeto.
 
-#### Node.js (Windows)
-```
-# Download and install fnm:
+### 1. Instalação Node.js:
+
+#### 1.1 Node.js (Windows)
+```bash
 winget install Schniz.fnm
 
-# Download and install Node.js:
 fnm install 22
 
-# Verify the Node.js version:
-node -v # Should print "v22.15.0".
+node -v 
 
-# Verify npm version:
-npm -v # Should print "10.9.2".
+npm -v
 ```
 
-#### Node.js (Linux)
-```
-# Download and install fnm:
+#### 1.2 Node.js (Linux)
+```bash
 curl -o- https://fnm.vercel.app/install | bash
 
-# Download and install Node.js:
 fnm install 22
 
-# Verify the Node.js version:
-node -v # Should print "v22.15.0".
+node -v
 
-# Verify npm version:
-npm -v # Should print "10.9.2".
-
+npm -v 
 ```
 
-#### prompt-sync (Na pasta do projeto)
+<a id="prompt-sync"></a>
+### 2. Instalação prompt-sync (Na pasta do projeto)
 ```
 npm i prompt-sync
 ```
+
+## Lista de Exercícios
+A lista contem 15 exercícios listados em: [exercicios.md](https://github.com/juanfkr/L1-MaisPraTi/blob/main/exercicios.md). <br>
+Também está presente o enunciado de cada questão no arquivo (**./src/**) referente à mesma.
